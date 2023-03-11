@@ -67,7 +67,7 @@ If there is a problem with the tensorflow version on a raspberry pi buster, run 
 pip3 install https://github.com/lhelontra/tensorflow-on-arm/releases/download/v2.1.0/tensorflow-2.1.0-cp37-none-linux_armv7l.whl 
 ```
 
-# Resources Utilized:
+# Resources Utilized
 
 Pretrained data for GenderAge_Recognition: 
 https://talhassner.github.io/home/publication/2015_CVPR 
