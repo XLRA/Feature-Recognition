@@ -38,11 +38,11 @@ pip3 install protobuf==3.20.3
 # Usage
 Configure the variables within the GUI_CONFIG.py file with your own pathway to the directories and there respective enviroments:
 
-Run the Feature Recognition GUI:
+Run Feature Recognition GUI:
 ```
 python3 GUI_Feature_Recognition.py
 ```
-For the Mask Recognition and Emotion Recognition:
+For Mask Recognition and Emotion Recognition:
 ```
 1. Collect the images
 2. Train the images
