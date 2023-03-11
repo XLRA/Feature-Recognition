@@ -36,7 +36,7 @@ pip3 install protobuf==3.20.3
 ```
 
 # Usage
-Configure the variables within the GUI_CONFIG.py file with your own pathway to the directories and there respective enviroments:
+Configure the variables within the GUI_CONFIG.py file with your own pathway to the directories and their respective environments:
 
 Run Feature Recognition GUI:
 ```
