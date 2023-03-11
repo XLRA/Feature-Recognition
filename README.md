@@ -6,29 +6,31 @@ The Mask Recognition feature is designed to recognize if a person is wearing a m
 
 
 # Setup
-```
-Create virtual environment:
 
+Create virtual environment:
+```
 Install python 3.7 (version used: 3.7.3)
 pip3 install virtualenv
+```
 
-In each folder create three separate virtual environments by using the command below:
+In each folder create and activate three separate virtual environments by using the command below:
 
+```
 cd folder_name (Mask_Recognition, GenderAge_Recognition, Emotion_Recognition)
-
 virtualenv env_name (ex: env1, env2, and env3)
-
-Activate the virtual environment using the command below:
-
 source env_name/bin/activate
+```
 
 Install the required libraries below for each of the virtual environments:
 
 Required Sudo Libraries:
+```
 sudo apt-get update
 sudo apt install -y libhdf5-dev libhdf5-serial-dev libatlas-base-dev libjasper-dev libqtgui4 libqt4-test
+```
 
 Required Python Libraries:
+```
 pip3 install numpy==1.20.1 
 pip3 install opencv-contrib-python==4.1.0.25
 pip3 install imutils==0.5.4
@@ -39,21 +41,22 @@ pip3 install protobuf==3.20.3
 ```
 
 # Usage
-```
-Configure the GUI_CONFIG.py file with the directories of the main folders and its respective environments:
+
+Configure the variables within the GUI_CONFIG.py file with your pathway to the directories and there respective enviroments:
 
 Run the Feature Recognition GUI:
-
+```
 python3 GUI_Feature_Recognition.py
+```
 
 For the Mask Recognition and Emotion Recognition:
 
-First collect images, then train the images, then run the final recognition. 
+First collect the images, then train the images, then run the final recognition. 
 
 For GenderAge Recognition:
 
 Just run the final recognition as it has pre-trained data.
-```
+
 
 
 # Potential Errors/Solutions
