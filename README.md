@@ -5,7 +5,7 @@ The Mask Recognition feature is designed to recognize if a person is wearing a m
 
 # Setup
 ```
-install python 3.7
+install python3.7
 sudo apt-get update
 sudo apt install -y libhdf5-dev libhdf5-serial-dev libatlas-base-dev libjasper-dev libqtgui4 libqt4-test
 pip3 install numpy 
@@ -17,5 +17,5 @@ pip3 install opencv-contrib-python
 
 
 # Usage
-install python3.7
+
 
