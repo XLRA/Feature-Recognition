@@ -4,8 +4,8 @@ The Feature Recognition Project is a computer vision project that aims to recogn
 The Mask Recognition feature is designed to recognize if a person is wearing a mask or not, and the user can train their own model using their own pictures. The Gender & Age Recognition feature uses a pre-trained model to predict the gender and age of a person in real-time. For Emotion Recognition, the user can also train their own model using their own pictures, and the project will analyze facial expressions to determine the person's current emotional state, such as happy, sad, angry, surprised, or neutral.
 
 # Setup
-install python 3.7.3
 ```
+install python 3.7
 sudo apt-get update
 sudo apt install -y libhdf5-dev libhdf5-serial-dev libatlas-base-dev libjasper-dev libqtgui4 libqt4-test
 pip3 install numpy 
