@@ -35,6 +35,7 @@ pip3 install numpy==1.20.1
 pip3 install opencv-contrib-python==4.1.0.25
 pip3 install imutils==0.5.4
 pip3 install tensorflow==2.1.0
+pip3 install scikit-learn==1.0.2
 pip3 install pillow==9.4.0
 pip3 install h5py==2.10.0
 pip3 install protobuf==3.20.3
