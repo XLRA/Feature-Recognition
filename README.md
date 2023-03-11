@@ -6,13 +6,12 @@ The Mask Recognition feature is designed to recognize if a person is wearing a m
 
 
 ### Setup
-```
--Install python 3.7 (version used: 3.7.3)
 
--Installing the virtual environments
+Create virtual environment:
+Install python 3.7 (version used: 3.7.3)
 pip3 install virtualenv
 
-In each of the folders create a virtual environment by using the command below:
+In each folder create three separate virtual environments by using the command below:
 
 cd folder_name (Mask_Recognition, GenderAge_Recognition, Emotion_Recognition)
 
@@ -22,7 +21,7 @@ Activate the virtual environment using the command below:
 
 source env_name/bin/activate
 
-Install the required libraries below within the 3 different virtual environments:
+Install the required libraries below for each of the virtual environments:
 
 -Required Sudo Libraries:
 sudo apt-get update
@@ -30,13 +29,13 @@ sudo apt install -y libhdf5-dev libhdf5-serial-dev libatlas-base-dev libjasper-d
 
 -Required Python Libraries:
 pip3 install numpy==1.20.1 
+pip3 install opencv-contrib-python==4.1.0.25
+pip3 install imutils==0.5.4
+pip3 install tensorflow==2.1.0
+pip3 install pillow==9.4.0
 pip3 install h5py==2.10.0
 pip3 install protobuf==3.20.3
-pip3 install tensorflow==2.1.0
-pip3 install opencv-contrib-python==4.1.0.25
-pip3 install pillow==9.4.0
-pip3 install imutils==0.5.4
-```
+
 
 ### Usage
 Configure the GUI_CONFIG.py file with the directories of the main folders and its respective environments:
@@ -44,6 +43,14 @@ Configure the GUI_CONFIG.py file with the directories of the main folders and it
 Run the Feature Recognition GUI:
 
 python3 GUI_Feature_Recognition.py
+
+For the Mask Recognition and Emotion Recognition:
+
+First collect images, then train the images, then run the final recognition. 
+
+For GenderAge Recognition:
+
+Just run the final recognition as it has pre-trained data.
 
 
 
