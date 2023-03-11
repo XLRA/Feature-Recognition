@@ -6,7 +6,8 @@ The Mask Recognition feature is designed to recognize if a person is wearing a m
 
 
 ### Setup
-Install python 3.7 (version used: 3.7.3)
+```
+-Install python 3.7 (version used: 3.7.3)
 
 -Installing the virtual environments
 pip3 install virtualenv
@@ -35,7 +36,7 @@ pip3 install tensorflow==2.1.0
 pip3 install opencv-contrib-python==4.1.0.25
 pip3 install pillow==9.4.0
 pip3 install imutils==0.5.4
-
+```
 
 ### Usage
 Configure the GUI_CONFIG.py file with the directories of the main folders and its respective environments:
