@@ -6,9 +6,9 @@ The Mask Recognition feature is designed to recognize if a person is wearing a m
 
 
 # Setup
-
-Create virtual environment:
 ```
+Create virtual environment:
+
 Install python 3.7 (version used: 3.7.3)
 pip3 install virtualenv
 
@@ -24,11 +24,11 @@ source env_name/bin/activate
 
 Install the required libraries below for each of the virtual environments:
 
--Required Sudo Libraries:
+Required Sudo Libraries:
 sudo apt-get update
 sudo apt install -y libhdf5-dev libhdf5-serial-dev libatlas-base-dev libjasper-dev libqtgui4 libqt4-test
 
--Required Python Libraries:
+Required Python Libraries:
 pip3 install numpy==1.20.1 
 pip3 install opencv-contrib-python==4.1.0.25
 pip3 install imutils==0.5.4
