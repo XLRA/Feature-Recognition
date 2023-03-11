@@ -62,8 +62,6 @@ pip3 install https://github.com/lhelontra/tensorflow-on-arm/releases/download/v2
 ```
 
 # Resources Utilized
-Pretrained data for GenderAge_Recognition: 
-https://talhassner.github.io/home/publication/2015_CVPR 
+[Pretrained data for GenderAge_Recognition](https://talhassner.github.io/home/publication/2015_CVPR)
 
-TensorFlow version:
-https://github.com/lhelontra/tensorflow-on-arm/releases 
+[TensorFlow version](https://github.com/lhelontra/tensorflow-on-arm/releases)
