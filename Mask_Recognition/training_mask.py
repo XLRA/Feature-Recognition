@@ -14,7 +14,7 @@ import os
 
 # Initialize hyperparameters
 LEARNING_RATE = 1e-4
-EPOCHS = 3
+EPOCHS = 30
 BATCH_SIZE = 32
 
 # Define the path to the dataset directory
